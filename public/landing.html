@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Kassvi</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+    <!-- Materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#header-sec" class="brand-logo"><img class="kaslog" src="images/T.jpg" alt="Team Kassvi Logo" ></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="no-btn" href="#header-sec">Home</a></li>
+                <li><a class="no-btn" href="#features">Features</a></li>
+                <li><a class="no-btn" href="#contact-nav">Contact</a></li>
+                <li><a class="no-btn" href="dashboard/index.html">Dashboard</a></li>
+                <li><a id="app-btn" class="no-btn" href="#">Analyser</a></li>
+                <li><a id="app-btn" class="no-btn" href="app-page/index.html">Mobile App</a></li>
+                <li><a class="waves-effect btn" onClick="$('#log2').modal('open')">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- Header -->
+<div id="header-sec" class="header-section">
+    <div class="header-content">
+        <div class="row">
+            <div class="col s12 m5">
+                <br><br><br><br><br><br><br>
+                <div class="container">
+                    <p class="title">Bridging The Alexithymic Emotional Gap!</p>
+                    <p class="title-body"> Aiding Socio-Communication Adeptness through Audio Emotion Recognition.
+</p>
+                    <p>
+                        <br>
+                        <a href="#features"><button class="waves-effect waves-light btn blue">Get Started</button></a>
+                    </p>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <img id="header-img" src="images/header-img.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- HR -->
+<br>
+<div class="container">
+    <hr style="opacity:0.45;background: #6f749a;height: 2px;border: none;">
+</div>
+
+<!-- Parallax-1 -->
+<div class="parallax-container">
+    <div class="center" style="color: #fff; font-size: 35px;font-weight: 100;">
+        <br><br><br><br>
+        Say Hello to a New World!
+    </div>
+    <div class="parallax"><img src="images/child1.jpeg"></div>
+</div>
+
+<br><br>
+
+<!-- Features -->
+<div id="features" class="features-section" style="padding-top: 80px;">
+    <div class="features-content container">
+        <div class="row">
+            <div class="col s12 m4 center">
+                <img class="feature-img" src="images/jigsaws.svg">
+                <br>
+                <h2 class="feature-title">Autism</h2>
+                <p class="feature-text"> Autism spectrum disorder (ASD), refers to a range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication. The term 'spectrum' reflects the wide variation in challenges and strengths possessed by each person with autism.
+ </p>
+            </div>
+            <div class="col s12 m4 center">
+                <img class="feature-img" src="images/boy.svg">
+                <br>
+                <h2 class="feature-title"> Alexithymia </h2>
+                <p class="feature-text"> A prevalent constituent of the ASD, Alexithymia is a personality construct that reflects the inability to recogonise or describe emotions. Lack of emotional awareness combined with difficulty in distinguishing and appreciating emotions of others often leads to false impressions of apathy and concern. </p>
+            </div>
+            <div class="col s12 m4 center">
+                <img class="feature-img" src="images/ASCEND_cr.svg">
+                <br>
+                <h2 class="feature-title"> ASCEND</h2>
+                <p class="feature-text"> Our product provides a real-time interface to aid autistic people in their day-to-day communications via speech. The algorithm identifies emotion from audio irrespective of language and offers a suggestive reaction. Concerned doctors and teachers can also monitor with a background 24/7 reporting facility.
+ </p>
+            </div>
+        </div>
+    </div>
+</div>
+<svg id="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="80" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 0 C 50 120 50 120 100 0 Z" />
+</svg>
+
+
+<!-- Dashboard -->
+<div class="dashboard">
+    <div class="container center">
+        <h2 class="feature-title"> How ASCEND works </h2>
+  <!--      <p class="feature-text"> Access your secure dashboard online at any time. Track your results, view your personalised reports and get information on what things mean and how you can make changes .</p>
+        <br>-->
+    </div>
+    <!--<br>-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6 center">
+                <img class="works-img" src="images/register.svg">
+            </div>
+            <div class="col s12 m6">
+                <p class="works-num">01</p>
+                <p class="works-title">Sign up</p>
+                <p class="works-text">Download the ASCEND app from the Android Play Store, sign up, and make your account to begin your journey with us!</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m6">
+                <p class="works-num" style="color: mediumpurple">02</p>
+                <p class="works-title">Record</p>
+                <p class="works-text">You can record in real-time with instantaneous results or statically to access the recordings later. The app shows the emotion detected along with a suggested reaction.
+</p>
+            </div>
+            <div class="col s12 m6 center">
+                <img class="works-img" src="images/speaking.svg">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m6 center">
+                <img class="works-img" src="images/analyse.svg">
+            </div>
+            <div class="col s12 m6">
+                <p class="works-num" style="color: #56D0E1">03</p>
+                <p class="works-title">Analyse</p>
+                <p class="works-text"> Visit the dashboard to view the analysis at a glance. Useful for doctors and teachers alike, the dashboard has it all!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<svg id="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="125" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path d="M0 100 C 20 0 50 0 100 100 Z" />
+</svg>
+
+<!-- Testimonials -->
+<div class="testimonials">
+    <div class="testimonials-content">
+        <br><br>
+        <div class="testimonial-container">
+            <div class="dk-container">
+                <div class="cd-testimonials-wrapper cd-container">
+                    <h2 style="color: #fff;opacity: 0.8;">The Team</h2>
+                    <ul class="cd-testimonials">
+                        <li>
+                            <div class="testimonial-content">
+                                <p>Codeigniter, Visual Interpreter and a Staunch Crusader in the battle of peculiarities. An experienced web-developer who is a master of JS and RubyonRails. Loves puzzle solving and publc speaking. Best described as a sports keeda. A Computer Engineering major from Delhi Technological University.  </p>
+                                <div class="cd-author">
+                                    <img class="authimg" src="images/suvi.jpeg" alt="Suvigya's image">
+                                    <ul class="cd-author-info">
+                                        <li><b>Suvigya Nijhawan</b><br>
+                                        <p></p>
+                                        
+                                          <a href="https://www.linkedin.com/in/suvigya-nijhawan-62330aa7/" target="_blank" class=""><img class="link" src="images/link.svg" alt="LinkedIn Logo" ></a>
+
+                                          <a href="https://www.twitter.com/SuvigyaN/" target="_blank" class=""><img class="twi" src="images/twi.svg" alt="Twitter Logo" >
+
+                                        <span class="twname">@SuvigyaN</span></a>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial-content">
+                                <p>Java Slayer, Number Player and a Seasoned Voyager in the sea of difficulties. A self-taught android developer who can create applications in the blink of an eye. Passionate about coding Currently a final year student pursuing Computer Engineering from Delhi Technological University. 
+ </p>
+                                <div class="cd-author">
+                                    <img class="authimg" src="images/kar.jpg" alt="Suvigya's image">
+                                    <ul class="cd-author-info">
+                                        <li><b>Kartik Bhutani</b><br>
+                                        <p></p>
+                                        
+                                          <a href="https://www.linkedin.com/in/kartikbhutani/" target="_blank" class=""><img class="link" src="images/link.svg" alt="LinkedIn Logo" ></a>
+
+                                          <a href="https://www.twitter.com/kartik_bhutani/" target="_blank" class=""><img class="twi" src="images/twi.svg" alt="Twitter Logo" >
+
+                                        <span class="twname">@kartik_bhutani</span></a>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="testimonial-content">
+                                <p>Python Enthusiast, Team Worker and Conflict Resolver in the inevitable path to success. The creative mind of the team. Always keeps his calm and thinks out of the box. An over-passionate football addict. Currently pursuing his bachelors in Computer Engineering from Delhi Technological University.
+ </p>
+                                <div class="cd-author">
+                                    <img class="authimg" src="images/sonu.JPG" alt="Suvigya's image">
+                                    <ul class="cd-author-info">
+                                        <li><b>Sonam Tshering</b><br>
+                                        <p></p>
+                                        
+                                          <a href="https://www.linkedin.com/in//" target="_blank" class=""><img class="link" src="images/link.svg" alt="LinkedIn Logo" ></a>
+
+                                          <a href="https://www.twitter.com/sonamtsh1328/" target="_blank" class=""><img class="twi" src="images/twi.svg" alt="Twitter Logo" >
+
+                                        <span class="twname">@sonamtsh1328</span></a>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                        </li>
+
+                         <li>
+                             <div class="testimonial-content">
+                                <p>Graphics Artist, UI-Designer and Resolute Motivator in the spiraling vortex of obstacles. The goto person and the content writer of the team. Loves reading to keep the mind sharp. An artistic mind, with a passion for coding. Currently pursuing Computer Engineering from Delhi Technological University. </p>
+                                <div class="cd-author">
+                                    <img class="authimg" src="images/viha.jpg" alt="Suvigya's image">
+                                    <ul class="cd-author-info">
+                                        <li><b>Viha Gupta</b><br>
+                                        <p></p>
+                                        
+                                          <a href="https://www.linkedin.com/in/viha-gupta-6986a2143/" target="_blank" class=""><img class="link" src="images/link.svg" alt="LinkedIn Logo" ></a>
+
+                                          <a href="https://www.twitter.com/vihagupta95/" target="_blank" class=""><img class="twi" src="images/twi.svg" alt="Twitter Logo" >
+
+                                        <span class="twname">@vihagupta95</span></a>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- cd-testimonials -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Parallax-2 -->
+<div id="parallax-2" class="parallax-container">
+    <div class="center" style="color: #fff; font-size: 35px;font-weight: 100;">
+        <br><br><br><br>
+        Explore the newer you!
+    </div>
+    <div class="parallax"><img src="images/child2.jpeg"></div>
+</div>
+
+<!-- Contact -->
+<div id="contact-nav" style="padding-top: 20px;" class="contact-section">
+    <br>
+    <h2 class="center" style="font-size: 35px; font-weight: 600"> LET'S DISCUSS </h2>
+    <center><p class="underline"><i class="fa fa-circle-thin" aria-hidden="true"></i></p>
+    </center>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 m4">
+                <img id="message" src="images/message.svg">
+            </div>
+            <div class="col s12 m8">
+                <p class="center" style="font-size:30px;font-weight: 100;"> Say Hello!</p>
+                <div class="row">
+                    <form method="POST" action="http://formspree.io/teamkassvi@gmail.com" class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input name="reply_to" id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">mail</i>
+                                <input id="icon_telephone" name="email" type="email" class="validate">
+                                <label for="icon_telephone">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea name="message" id="icon_prefix2" class="materialize-textarea"></textarea>
+                                <label for="icon_prefix2">Message</label>
+                            </div>
+                        </div>
+                        <center><button class="btn" type="submit">Send</button></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+
+<!-- Parallax Facts anf Figures -->
+
+<!-- Footer -->
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Connect</h5>
+                <p class="grey-text text-lighten-4"> 
+
+        For Further Enquiries,<br />
+        Please Contact :<br/>
+
+        <a href="mailto:teamkassvi@gmail.com">teamkassvi@gmail.com</a>
+        <br />
+        <a href="mailto:suvigyanijhawan@dtu.ac.in">suvigyanijhawan@dtu.ac.in</a>
+
+      </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contact Us</h5>
+                                <h6 class="white-text">TEAM KASSVI</h5>
+
+                <ul>
+                    <li>Suvigya Nijhawan <a class="link-ul grey-text text-lighten-3" href="mob:+91-9971257549" target="_blank">+91-9971257549</a></li>
+                    <li>Kartik Butani <a class="link-ul grey-text text-lighten-3" href="mob:+91-9560654335" target="_blank">+91-9560654335</a></li>
+                    <li>Sonam Tshering <a class="link-ul grey-text text-lighten-3" href="mob:+91-9582099228" target="_blank">+91-9582099228</a></li>
+                    <li>Viha Gupta <a class="link-ul grey-text text-lighten-3" href="mob:+91-+91-8744947608" target="_blank">+91-8744947608</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 All Rights Reserved - TEAM KASSVI 
+          <!--  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+        </div>
+    </div>
+</footer>
+
+<!-- Modal Trigger -->
+<div id="log2" class="modal z-depth-1 grey lighten-4 row" style="padding:20px 10px">
+    <div class="row">
+    <div id="leftlogin" class="col s7">
+        <div class='row'>
+            <div class='col s12'>
+                <h5 class="indigo-text"><a id="show_login" href="#!">Login</a> / <a href="#!" id="show_signup">Register</a></h5>
+            </div>
+            <div class="login">
+            <div class='input-field col s12'>
+                <input class='validate' type='email' name='email' id='email' />
+                <label for='email'>Enter your email</label>
+            </div>
+            <div class='input-field col s12'>
+                <input class='validate' type='password' name='password' id='password' />
+                <label for='password'>Enter your password</label>
+            </div>
+            <label style='float: right;'>
+                <a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+            </label>
+            <br/><br/>
+                <button id="login_btn" type='submit' name='btn_login' class='col s12 btn waves-effect indigo'>Login</button>
+            </div>
+            <div style="display: none;" class="signup">
+            <div class='input-field col s12'>
+                <input class='validate' type='text' name='name-su' id='name-su' />
+                <label for='name-su'>Enter your name</label>
+            </div>
+            <div class='input-field col s12'>
+                <input class='validate' type='email' name='email-su' id='email-su' />
+                <label for='email-su'>Enter your email</label>
+            </div>
+            <div class='input-field col s12'>
+                <input class='validate' type='password' name='password-su' id='password-su' />
+                <label for='password-su'>Enter your password</label>
+            </div>
+            <br/><br/>
+                <button id="signup_btn" type='submit' name='btn_signup' class='col s12 btn waves-effect indigo'>Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="col s5 row">
+        <div class="col s12 center-align"><h5 class="indigo-text">Login Using</h5></div>
+        <div class="col s12">&nbsp;</div>
+        <div class="col s12">&nbsp;</div>
+        <button type='submit' name='btn_login' class='col s8 offset-s2 center-align btn waves-effect indigo'>Facebook</button>
+        <div class="col s12 center-align">&nbsp;</div>
+        <button type='submit' name='btn_login' class='col s8 offset-s2 btn waves-effect red darken-3'>Google</button>
+    </div>
+    </div>
+</div>
+
+<!-- Jquey -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Materialize js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/jquery.flexslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.modal').modal();
+    $('.modal').tabs('select_tab','log-tab');
+    $('.parallax').parallax();
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        
+        // smooth scroll
+        $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+        });
+        
+        //create the slider
+        $(".cd-testimonials-wrapper").flexslider({
+            selector: ".cd-testimonials > li",
+            animation: "slide",
+            controlNav: true,
+            slideshow: false,
+            smoothHeight: true,
+            start: function() {
+                $(".cd-testimonials")
+                    .children("li")
+                    .css({
+                        opacity: 1,
+                        position: "relative"
+                    });
+            }
+        });
+
+
+        $("#login_btn").click(function () {
+        
+            //console.log(document.getElementById("email").value);
+            
+            $.ajax({
+                url: '/signin',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    email:document.getElementById("email").value,
+                    password:document.getElementById("password").value
+                }),
+                error: function(e) {
+                    console.log("Error: ",e);
+                },
+                success: function(data) {
+                    console.log(data);
+                    window.localStorage.setItem("id",data.user._id);
+                    window.location = "/app/" + data.user._id;
+                }
+            });
+        });
+        
+        $("#signup_btn").click(function () {
+            
+            console.log("name", document.getElementById("name-su").value);
+            console.log("email", document.getElementById("email-su").value);
+              $.ajax({
+                url: '/signup',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    name:document.getElementById("name-su").value,
+                    email:document.getElementById("email-su").value,
+                    password:document.getElementById("password-su").value
+                }),
+                error: function(e) {
+                    console.log("Error: ",e);
+                },
+                success: function(data) {
+                    console.log(data);
+                    window.location = "/app/" + data.user._id;
+                }
+            });
+        });
+        
+        $("#show_signup").click(function () {
+           $(this).css("color","purple"); 
+           $("#show_login").css("color","blue");    
+           $(".login").css("display","none");
+           $(".signup").css("display","block");    
+        });
+        
+         $("#show_login").click(function () {
+           $(this).css("color","purple"); 
+           $("#show_signup").css("color","blue");      
+           $(".login").css("display","block");
+           $(".signup").css("display","none");    
+        });
+        
+        $("#app-btn").click(function() {
+            if (window.localStorage.getItem("id")){
+                window.location = "/app/" + window.localStorage.getItem("id");
+            }else{
+                $('#log2').modal('open');
+            }
+        });
+    });
+
+    
+     
+
+</script>
+</body>
+</html>

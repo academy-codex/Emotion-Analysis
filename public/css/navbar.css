@@ -1,0 +1,26 @@
+nav {
+  background: #fff;
+}
+
+nav a{
+  color:#000 !important;
+}
+
+nav a.no-btn:hover{
+  background: #fff !important;
+  color: #FA476F !important;
+}
+
+nav li a.btn{
+  background: #FA476F;
+  border-radius: 500px;
+  color: #fff !important;
+}
+
+nav li a.btn:hover{
+  background: #FA476F !important;
+}
+
+
+
+

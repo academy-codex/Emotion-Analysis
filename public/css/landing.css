@@ -1,0 +1,374 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-content .title{
+    font-size: 2.625rem;
+    margin: 0 0 1.3125rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #3d4250;
+}
+
+.header-content .container{
+    position: relative;
+    top: 50%;
+}
+
+.header-content .title-body{
+    line-height: 140%;
+    color: #6f749a;
+    font-weight: 300;
+    font-size: 1.15rem;
+}
+
+.header-content button{
+    border-radius: 500px;
+    height: 45px;
+}
+.header-content button:hover{
+    background-color: #51CFE0;
+    opacity: 0.85;
+}
+
+#header-img{
+    position: relative;
+    right:-10px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.feature-img{
+    width: 70px !important;
+}
+
+.feature-title{
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.2rem;
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.feature-text{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2rem;
+    color: #6F749A;
+}
+
+/* Testing SVG Section Seperator */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+*, *:after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    padding: 10em;
+    background: teal;
+    color: #fff;
+    text-align: center;
+}
+
+section::before,
+section::after {
+    position: absolute;
+    content: '';
+    pointer-events: none;
+}
+
+.color {
+    background: #005c5c;
+}
+
+#curveDownColor path {
+    fill: #FFC662;
+    stroke: #FFC662;
+}
+
+#curveUpColor path {
+    fill: #FA476F;
+    stroke: #FA476F;
+}
+
+.works-title{
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    opacity: 0.8;
+    font-weight: 600;
+    margin-top: -60px;
+}
+
+.works-text{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2rem;
+    color: #6F749A;
+}
+
+.works-img{
+    height: 200px;
+    margin-top: 60px;
+}
+
+.works-num{
+    font-size: 50px;
+    color: #AEEC73;
+}
+
+.testimonials{
+    margin-top: -8px;
+    background-color: #FA476F;
+}
+
+.testimonial-container{
+    background: #FA476F;
+}
+
+footer{
+    background: #3ECADD !important;
+}
+
+#log2{
+    max-width:600px;
+    overflow:hidden;
+}
+#leftlogin{
+    border-right: solid 1px #3f51b5;
+    padding-right:20px;
+}
+
+#message{
+    margin-right: 150px;
+    margin-top: 100px;
+}
+
+.parallax-container{
+    background: rgba(255,43,108,0.8);
+    margin-top: -10px;
+}
+
+#parallax-2{
+    background: rgba(30,144,255,0.8);
+    margin-top: -10px;
+}
+
+/* -- Modal -- */
+
+.form {
+    z-index: 15;
+    position: relative;
+    background: #FFFFFF;
+    width: 600px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin: 100px auto 10px;
+    overflow: hidden;
+}
+.form-toggle {
+    z-index: 10;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    background: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: translate(0, -25%) scale(0);
+    transform: translate(0, -25%) scale(0);
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.form-toggle:before, .form-toggle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 4px;
+    background: #4285F4;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.form-toggle:before {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.form-toggle:after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.form-toggle.visible {
+    -webkit-transform: translate(0, -25%) scale(1);
+    transform: translate(0, -25%) scale(1);
+    opacity: 1;
+}
+.form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 0 20px;
+}
+.form-group:last-child {
+    margin: 0;
+}
+.form-group label {
+    display: block;
+    margin: 0 0 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+.two .form-group label {
+    color: #FFFFFF;
+}
+.form-group input {
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.form-group input:focus {
+    color: rgba(0, 0, 0, 0.8);
+}
+.two .form-group input {
+    color: #FFFFFF;
+}
+.two .form-group input:focus {
+    color: #FFFFFF;
+}
+.form-group button {
+    outline: none;
+    background: #4285F4;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.two .form-group button {
+    background: #FFFFFF;
+    color: #4285F4;
+}
+.form-group .form-remember {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.form-group .form-remember input[type='checkbox'] {
+    display: inline-block;
+    width: auto;
+    margin: 0 10px 0 0;
+}
+.form-group .form-recovery {
+    color: #4285F4;
+    font-size: 12px;
+    text-decoration: none;
+}
+.form-panel {
+    padding: 60px calc(5% + 60px) 60px 60px;
+    box-sizing: border-box;
+}
+.form-panel.one:before {
+    content: '';
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.form-panel.one.hidden:before {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+.form-panel.two {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 95%;
+    background: #4285F4;
+    width: 100%;
+    min-height: 100%;
+    padding: 60px calc(10% + 60px) 60px 60px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.form-panel.two:before, .form-panel.two:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 1.5%;
+    background: rgba(255, 255, 255, 0.2);
+    height: 30px;
+    width: 2px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.form-panel.two:after {
+    left: 3%;
+}
+.form-panel.two:hover {
+    left: 93%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.form-panel.two:hover:before, .form-panel.two:hover:after {
+    opacity: 0;
+}
+.form-panel.two.active {
+    left: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+.form-panel.two.active:before, .form-panel.two.active:after {
+    opacity: 0;
+}
+.form-header {
+    margin: 0 0 40px;
+}
+.form-header h1 {
+    padding: 4px 0;
+    color: #4285F4;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.two .form-header h1 {
+    position: relative;
+    z-index: 40;
+    color: #FFFFFF;
+}
